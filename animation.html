@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .box{
+            background-image: url('/images/sea4.jpg');
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            text-align: center;
+            font-weight: 900%;
+            font-size: large;
+            
+        }
+
+        .fish{
+            position: absolute;
+            top: 10rem;
+            margin-left: .5rem;
+            animation: anim1 5s;
+        }
+
+        @keyframes anim1 {
+
+            0%{
+            margin-left:0;
+            margin-top: 0;
+        }
+
+        25%{
+            margin-left:20rem;
+            margin-top: 0;
+            background-color: yellow;
+            color: aliceblue;
+            /* box-shadow: 20rem; */
+            /* rotate: 50deg; */
+
+        }
+
+        50%{
+            margin-left:30rem;
+            margin-top: 20rem;
+            background-color: green;
+            color: aliceblue;
+            /* rotate: 150deg; */
+        }
+
+        75%{
+            margin-left:0;
+            margin-top: 20rem;
+            background-color: rgb(236, 36, 146);
+            color: aliceblue;
+            /* rotate: 200deg; */
+        }
+
+        100%{
+            margin-left:0;
+            margin-top: 0;
+        }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box">Sea 
+
+        <div class="fish">
+            <img id="fish" src="/images/fish.png" height="100px" width="100px">
+        </div>
+    </div>
+</body>
+</html>

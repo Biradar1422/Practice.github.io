@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.navbar{
+
+    /* border: 1px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leftsection{
+
+    /* border: 1px solid rgb(49, 224, 14); */
+    width: 25%;
+    margin: .5rem;
+
+   
+}
+
+.leftsection > ul > li{
+
+    /* border: 1px solid red; */
+    margin: 1rem;
+    list-style: none;
+    width: 7rem;
+    border: 1px solid rgb(10, 10, 10) !important;
+    font-weight: bold !important;
+    padding: .3rem !important;
+    text-align: center;
+    
+}
+
+.rightsection{
+
+    /* border: 1px solid rgb(49, 224, 14); */
+    width: 30%;
+    margin: .5rem;
+   
+}
+
+
+ .rightsection > ul{
+
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+ } 
+
+.rightsection > ul > li{
+
+    /* border: 1px solid red; */
+    margin: 1rem;
+    list-style: none;
+    padding: .2rem;
+   font-weight: 5rem;
+   
+   
+}
+
+.mainsection{
+
+    border: 1px solid red;
+    height: 90vh;
+    width: 98.5vw;
+    background-image: url('/images/wal2.jpg' );
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+   
+    /* align-items: center; */
+}
+
+.left-div, .right-div{
+
+    height: 90vh;
+    width: 50%;
+}
+
+.left-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.left-div > img{
+border-radius: 20px;
+
+}
+
+.right-div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.right-div > h1{
+    color: rgb(241, 8, 47);
+    
+
+}
